@@ -56,3 +56,23 @@ header nav ul li a:visited {
   color: #2980b9; /* Mantiene el color del texto */
   border-color: #2980b9; /* Mantiene el mismo color del borde */
 }
+
+/* -----------------------------------
+   Footer Styles
+----------------------------------- */
+footer {
+  background-color: #f1f1f1; /* Color de fondo del footer */
+  padding: 15px 0; /* Espaciado del footer */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer img{
+  width: 150px;
+  height: auto;
+}
+
+.redes  img:hover {
+  transform: scale(1.1); /* Aumentamos el tamaño en hover */
+}
