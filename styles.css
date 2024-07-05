@@ -1,3 +1,8 @@
+* {
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -55,4 +60,17 @@ header nav ul li a:visited {
   background-color: #ecf0f1; /* Mantiene el mismo color de fondo */
   color: #2980b9; /* Mantiene el color del texto */
   border-color: #2980b9; /* Mantiene el mismo color del borde */
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+  margin: 100px;
+}
+main img{
+  width: 1200px;
+  height: auto;
+  padding-left: 100px;
 }
