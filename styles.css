@@ -1,3 +1,8 @@
+* {
+  font-size: large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -40,8 +45,6 @@ header nav ul li a {
   border: 2px solid #2980b9; /* Borde de 2px de grosor y color azul */
   border-radius: 5px; /* Esquinas redondeadas con un radio de 5px */
   color: #2980b9; /* Color del texto */
-  font-size: large;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Cambia el color del enlace cuando ha sido visitado */
@@ -75,4 +78,31 @@ footer img{
 
 .redes  img:hover {
   transform: scale(1.1); /* Aumentamos el tamaño en hover */
+}
+.main-index {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+  margin: 100px;
+}
+.main-index img{
+  width: 1200px;
+  height: auto;
+  padding-left: 100px;
+}
+
+main {
+  padding: 50px;
+}
+
+main h1{
+  font-size: 50px;
+  padding: 20px;
+}
+
+main h2{
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 0px;
 }
