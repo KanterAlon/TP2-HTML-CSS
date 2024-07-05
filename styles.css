@@ -65,7 +65,8 @@ header nav ul li a:visited {
 ----------------------------------- */
 footer {
   background-color: #f1f1f1; /* Color de fondo del footer */
-  padding: 15px 0; /* Espaciado del footer */
+  padding: 20px;
+  padding-bottom: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
