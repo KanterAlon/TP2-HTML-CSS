@@ -60,15 +60,30 @@ header nav ul li a:visited {
   border-color: #2980b9; /* Mantiene el mismo color del borde */
 }
 
-main{
+.main-index {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
   align-items:center;
   margin: 100px;
 }
-main img{
+.main-index img{
   width: 1200px;
   height: auto;
   padding-left: 100px;
+}
+
+main {
+  padding: 50px;
+}
+
+main h1{
+  font-size: 50px;
+  padding: 20px;
+}
+
+main h2{
+  font-size: 25px;
+  padding: 10px;
+  padding-left: 0px;
 }
